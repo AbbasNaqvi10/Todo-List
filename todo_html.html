@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Todo_css.css">
+    
+</head>
+<body>
+    <div id="todo">
+        <div id="header">
+            <h1>Todo</h1>
+            <input type="text" id="add" class="form-control" placeholder="Add List">
+            <span onclick="addList()" id="btnadd" class="btn btn-outline-primary">Add</span>
+        </div>
+    </br>
+    </br>
+
+        <div id="list">
+            <ul id="myList">
+                <li>Breakfast</li>
+                <li>Gym</li>
+                <li >Assignments</li>
+                <li class="checked">Uni</li>
+                <li>Web Practice</li>
+              </ul>
+        </div>
+
+    </div>
+</body>
+<script src="Todo_js.js"></script>
+</html>
